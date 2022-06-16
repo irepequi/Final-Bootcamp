@@ -1,0 +1,36 @@
+@import "../../scss/variables";
+
+.backgroundAdmin {
+  padding-top: 10vw;
+  padding-left: 10vw;
+  z-index: -1;
+  height: 70vh;
+
+  background-image: url("../../../../public/images/background/background6.jpg");
+
+  background-color: $primary;
+  // background-color: $secondary;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  h1,
+  h3 {
+    color: white;
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: $marginRem;
+    color: white;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+
+  padding: $paddingGeneral;
+}

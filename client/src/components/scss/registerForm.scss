@@ -1,0 +1,30 @@
+@import "../../pages/scss/variables";
+
+.containerMap {
+  padding-bottom: 0;
+}
+
+.header {
+  padding-bottom: 2rem;
+}
+
+h2 {
+  padding-bottom: 0;
+}
+
+p {
+  padding-right: $paddingRem;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+
+  :nth-child(2) {
+    margin-left: $marginRem;
+  }
+}
+
+.editInput {
+  display: flex;
+}

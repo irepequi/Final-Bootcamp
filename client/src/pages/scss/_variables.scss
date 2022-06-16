@@ -1,0 +1,63 @@
+//Fuentes
+@font-face {
+  font-family: "FiraSans";
+  src: url("./fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans-Light";
+  src: url("./fonts/FiraSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans-Thin";
+  src: url("./fonts/FiraSans-Thin.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans-SemiBold";
+  src: url("./fonts/FiraSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans-Bold";
+  src: url("./fonts/FiraSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans-Black";
+  src: url("./fonts/FiraSans-Black.ttf");
+}
+
+//colores
+// $primary: #503ff3; //oscuro de figma
+// $primary: #7b6ef6; //morado color corporativo antiguo
+$primary: #23b6b5;
+
+// $primaryClaro: #bdb7fb; //morado color corporativo antiguo para botones desabilitados
+$primaryClaro: #e59da2; //rojo claro para botones desabilitados
+$primaryClaro: #a6e6e6; //verde claro para botones desabilitados
+
+$grisOscuro: #454954;
+$grisClaro: #9599a7;
+$grisMuyClaro: #abafba;
+$grisFondo: #e0e3eb;
+$gris: #f8f9fc;
+// $secondary: #1ea5fc; //azul color corporativo antiguo
+$secondary: #b9454d;
+// $rojo: #a70606;
+$rojo: #f52c4a;
+
+//medidas
+$paddingGeneral: 2vw;
+$marginGeneral: 2vw;
+$paddingSpecific: 1vw;
+$marginSpecific: 1vw;
+$paddingRem: 2rem;
+$marginRem: 2rem;
+// $radius: 12px;
+$radius: 50px;
+
+$boxShadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+  rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+// box-shadow: $grisMuyClaro 0 1px 0;

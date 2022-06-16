@@ -1,0 +1,15 @@
+@import "../../scss/variables";
+
+.login {
+  button {
+  }
+
+  .subtext {
+    margin-top: $marginRem;
+  }
+
+  .boton_morado_link {
+    margin-top: $marginSpecific !important;
+    margin-bottom: 0 !important;
+  }
+}

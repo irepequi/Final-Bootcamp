@@ -1,0 +1,99 @@
+@import "../../pages/scss/variables";
+
+//----------------------------------------------------------- Navbar
+.logoNavbar {
+  width: 235px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+}
+
+.avatarLetra {
+  color: $grisOscuro;
+  font-size: 2em;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{padding: 0;
+    margin: 0;
+  }
+}
+
+nav {
+  // padding: 0 !important;
+
+  .logoNavbar {
+    width: 190px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .avatar {
+    width: 3rem;
+    border-radius: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .avatarLetra {
+    color: $grisOscuro;
+    font-size: 2em;
+    text-align: center;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        font-weight: bold;
+      }
+
+      &:active {
+        font-weight: bold !important;
+      }
+    }
+  }
+
+  button {
+    margin-top: 0 !important;
+    margin-left: $marginRem;
+  }
+
+  .menu {
+    margin-right: $marginRem;
+    display: flex;
+  }
+}

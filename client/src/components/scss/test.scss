@@ -1,0 +1,60 @@
+@import "../../pages/scss/variables";
+
+//------------------------------------------------------ estilo general
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  width: 470px;
+  padding-right: $paddingSpecific;
+}
+
+button {
+  margin-top: $marginRem !important;
+}
+
+.video {
+  padding-top: $paddingRem;
+  margin-bottom: $paddingRem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.326), rgba(0, 0, 0, 0.326)),
+    url(../../../public/images/gif/video.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 550px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 7em;
+    color: $primary;
+    cursor: pointer;
+
+    &:hover {
+      font-size: 8em;
+      transition: 0.3s;
+    }
+
+    &:active {
+      transition: 0.3s;
+      color: $grisOscuro;
+    }
+  }
+}
+
+.btnTest {
+  background-color: $grisFondo;
+  color: white !important;
+  width: 100%;
+
+  p {
+    padding-left: $paddingRem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

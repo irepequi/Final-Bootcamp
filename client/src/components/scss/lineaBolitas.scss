@@ -1,0 +1,66 @@
+@import "../../pages/scss/variables";
+
+//------------------------------------------------------ linea tiempo bolitas
+.containerMap {
+  width: 100%;
+  padding-bottom: $paddingRem;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+
+  .progress {
+    // position: absolute;
+    // width: 100%;
+    // height: 50%;
+    height: 0;
+    border-bottom: 3px solid $grisOscuro;
+    z-index: -1;
+
+    .percent {
+      // position: absolute;
+      // height: 100%;
+      width: 0;
+      border-bottom: 2px solid $secondary;
+      z-index: 1;
+      transition: width 1s;
+    }
+  }
+
+  .steps {
+    // position: relative;
+    // width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -11px;
+
+    .step {
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      border: 2px solid $grisMuyClaro;
+      border-radius: 50%;
+      transition: background-color 1s;
+    }
+  }
+}
+
+.selected {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: background-color 1s;
+
+  background-color: $secondary;
+  border: 2px solid $secondary;
+}
+
+.completed {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: background-color 1s;
+
+  background-color: $grisOscuro;
+  border: 2px solid $grisOscuro;
+}
